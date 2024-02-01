@@ -1,3 +1,6 @@
+"""
+This file implements the MDP class for the finite-horizon setting.
+"""
 import numpy as np
 
 class Mdp:

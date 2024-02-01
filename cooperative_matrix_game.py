@@ -1,5 +1,6 @@
 """
-This file plots the dual function for the matrix games that are used as counter-examples in the paper.
+This file plots the dual function for the matrix games that are used as counter-examples for strong
+duality in the paper.
 """
 
 import numpy as np

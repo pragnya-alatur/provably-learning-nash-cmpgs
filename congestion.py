@@ -1,3 +1,6 @@
+"""
+This file implements the congestion game experiment from the paper.
+"""
 import games.congestion_games as cg
 import numpy as np
 import itertools as it
@@ -6,6 +9,7 @@ import utils.cmdp as cmdp
 import time
 import csv
 
+# The results will be saved in this directory.
 output_dir = '/tmp/'
 
 # Set up the distancing game described in Leonardos et al. (2021).
